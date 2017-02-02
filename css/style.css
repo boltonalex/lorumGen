@@ -1,33 +1,27 @@
 body {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8d8d8d+0,9b9b9b+100 */
   background: #8d8d8d;
-  /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #8d8d8d 0%, #9b9b9b 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #8d8d8d 0%, #9b9b9b 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #8d8d8d 0%, #9b9b9b 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d8d8d', endColorstr='#9b9b9b', GradientType=1);
-  /* IE6-9 fallback on horizontal gradient */
   font-family: 'Comfortaa', cursive;
   font-weight: 300;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 #root {
-  height: 95vh;
+  height: 85vh;
+  margin-top: 5vh;
 }
 
 h1 {
   font-weight: 700;
-  font-size: 2em;
+  font-size: 25px;
   margin-top: 0;
   color: #9b9b9b;
 }
 
 .container-fluid {
-  height: 80vh;
-  margin-top: 5vh;
+  height: 85vh;
   width: 80vw;
 }
 
@@ -43,11 +37,10 @@ h1 {
 
 .panel-heading {
   height: 10vh;
-  min-height: 70px;
 }
 
 .panel-body {
-  height: 50vh;
+  height: 45vh;
   overflow: scroll;
 }
 
@@ -59,4 +52,30 @@ h1 {
 .btn:hover {
   background: #9b9b9b;
   color: #3a3a3a;
+}
+
+@media (max-width: 770px) {
+  body {
+    /*background: pink;*/
+  }
+  h1 {
+    font-size: 15px;
+  }
+  .btn {
+    font-size: 10px;
+    padding: 3px 10px;
+  }
+  .panel-heading {
+    height: 6vh;
+  }
+  .panel-heading p, .panel-heading select {
+    font-size: 10px;
+  }
+  .numberWithButtonsbuttons {
+    height: 15vh;
+  }
+  .panel-body {
+    height: 50vh;
+    font-size: 8px;
+  }
 }

@@ -11152,13 +11152,13 @@ var NumberWithButtons = function (_Component) {
         value: function render() {
             return _react2.default.createElement(
                 "div",
-                { className: "panel-heading" },
+                { className: "panel-heading numberWithButtonsbuttons" },
                 _react2.default.createElement(
                     "div",
                     { className: "row text-center" },
                     _react2.default.createElement(
                         "div",
-                        { className: "col-md-4" },
+                        { className: "col-sm-4" },
                         _react2.default.createElement(
                             "button",
                             {
@@ -11169,7 +11169,7 @@ var NumberWithButtons = function (_Component) {
                     ),
                     _react2.default.createElement(
                         "div",
-                        { className: "col-md-4" },
+                        { className: "col-sm-4" },
                         _react2.default.createElement(
                             "p",
                             null,
@@ -11184,7 +11184,7 @@ var NumberWithButtons = function (_Component) {
                     ),
                     _react2.default.createElement(
                         "div",
-                        { className: "col-md-4" },
+                        { className: "col-sm-4" },
                         _react2.default.createElement(
                             "button",
                             {

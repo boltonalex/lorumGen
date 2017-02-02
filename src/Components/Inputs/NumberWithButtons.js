@@ -28,18 +28,18 @@ class NumberWithButtons extends Component {
     }
     render() {
         return (
-          <div className="panel-heading">
+          <div className="panel-heading numberWithButtonsbuttons">
             <div className="row text-center">
-                <div className="col-md-4">
+                <div className="col-sm-4">
                     <button
                       className={(this.state.value < 2) ? 'btn buttonDown disabled': 'btn buttonDown'}
                        onClick={this.onChangeDown.bind(this)}>
                        One Less Paragraph</button>
                 </div>
-                <div className="col-md-4">
+                <div className="col-sm-4">
                   <p>There {(this.state.value > 1) ? 'are': 'is'} {this.props.value} paragraph{(this.state.value > 1) ? 's': ''}.</p>
                 </div>
-                <div className="col-md-4">
+                <div className="col-sm-4">
                   <button
                     className={(this.state.value > 9) ? 'btn buttonUp disabled': 'btn buttonUp'}
                     onClick={this.onChangeUp.bind(this)}>
